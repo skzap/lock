@@ -1,7 +1,10 @@
 {
-  "name": "@bonustrack/lock",
+  "name": "@skzap/lock",
   "version": "0.1.0-beta.1",
-  "repository": "bonustrack/lock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skzap/lock.git"
+  },
   "license": "MIT",
   "main": "dist/lock.cjs.js",
   "module": "dist/lock.esm.js",
@@ -32,5 +35,11 @@
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }
+  },
+  "description": "A lightweight JavaScript library for log in to Ethereum.",
+  "bugs": {
+    "url": "https://github.com/skzap/lock/issues"
+  },
+  "homepage": "https://github.com/skzap/lock#readme",
+  "author": "Fabien Marino"
 }
